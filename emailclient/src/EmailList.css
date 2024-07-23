@@ -1,0 +1,85 @@
+.sidebar {
+    border-right: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+}
+
+.email-list {
+    flex: 1;
+    overflow-y: auto;
+}
+
+.email-item {
+    padding: 5px 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.email-item:hover {
+    background-color: #f0f0f0;
+}
+
+.email-summary {
+    display: flex;
+    align-items: center;
+}
+
+.email-checkbox {
+    margin-right: 5px;
+}
+
+.icon {
+    margin-right: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    color: #666;
+}
+
+.icon:hover {
+    color: #3f51b5;
+}
+
+.icon.pin,
+.icon.view {
+    margin-right: 10px;
+}
+
+.icon-expand {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    color: #666;
+}
+
+.icon-expand:hover {
+    color: #3f51b5;
+}
+
+.email-subject {
+    flex: 1;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.email-date {
+    margin-left: auto;
+    padding-left: 10px;
+    font-size: 12px;
+    color: #666;
+}
+
+.email-details {
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+    font-size: 12px;
+}
+
+.email-details p {
+    margin: 5px 0;
+    padding-left: 50px;
+}
